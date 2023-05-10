@@ -1,7 +1,7 @@
 {
   "name": "UWC",
   "version": "1.1.0",
-  "homepage": "https://hthanh-how.github.io/Urban-Waste-Collector-Ver-2",
+  "homepage": "https://hthanh-how.github.io/UrbanWasteCollectorVer2",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
@@ -44,11 +44,11 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts docs",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
